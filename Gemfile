@@ -14,6 +14,7 @@ gem 'pg'
 gem 'spree', '~> 3.0.7'
 gem 'spree_auth_devise', '~> 3.0.5'
 gem 'spree_gateway', '~> 3.0.0'
+gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: '3-0-stable'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 

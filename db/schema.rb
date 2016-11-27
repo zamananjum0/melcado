@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161127172035) do
+ActiveRecord::Schema.define(version: 20161127173032) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string   "slug",                      null: false
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20161127172035) do
     t.integer  "country_id"
     t.datetime "created_at",        null: false
     t.datetime "updated_at",        null: false
+    t.string   "braintree_id"
   end
 
   add_index "spree_addresses", ["country_id"], name: "index_spree_addresses_on_country_id"
@@ -90,6 +91,9 @@ ActiveRecord::Schema.define(version: 20161127172035) do
 
   add_index "spree_assets", ["viewable_id"], name: "index_assets_on_viewable_id"
   add_index "spree_assets", ["viewable_type", "type"], name: "index_assets_on_viewable_type_and_type"
+
+# Could not dump table "spree_braintree_checkouts" because of following NoMethodError
+#   undefined method `[]' for nil:NilClass
 
   create_table "spree_calculators", force: :cascade do |t|
     t.string   "type"
@@ -336,6 +340,8 @@ ActiveRecord::Schema.define(version: 20161127172035) do
     t.string   "number"
     t.string   "cvv_response_code"
     t.string   "cvv_response_message"
+    t.string   "braintree_token"
+    t.string   "braintree_nonce"
   end
 
   add_index "spree_payments", ["number"], name: "index_spree_payments_on_number"
