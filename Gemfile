@@ -11,11 +11,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
 
-gem 'spree', '~> 3.0.7'
-gem 'spree_auth_devise', '~> 3.0.5'
-gem 'spree_gateway', '~> 3.0.0'
-gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: '3-0-stable'
-gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-0-stable'
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'
+gem 'spree_braintree_vzero', github: 'spree-contrib/spree_braintree_vzero', branch: '3-1-stable'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings', branch: '3-1-stable'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
