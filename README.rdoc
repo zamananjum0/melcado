@@ -3,4 +3,10 @@
 * Ruby 2.3.0
 * Rails 4.2.5
 * Spree 3.1 stable
-* spree_braintree_vzero in 3-0-stable as 3-1 would fail bundle. Also check 'Heroku installation' additional info on docs
+* spree_braintree_vzero 3-1. (configured stripe and braintree gateways)
+* email sending configured with mandrill
+* added newrelic monitoring
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+TODO => heck 'Heroku installation' additional info on spree_braintree_vzero docs.

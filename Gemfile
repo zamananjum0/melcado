@@ -10,6 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
+gem 'newrelic_rpm'
 
 gem 'spree', '~> 3.0.7'
 gem 'spree_auth_devise', '~> 3.0.5'
