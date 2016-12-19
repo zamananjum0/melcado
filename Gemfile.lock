@@ -9,6 +9,16 @@ GIT
       whenever
 
 GIT
+  remote: git://github.com/spree-contrib/spree_editor.git
+  revision: 702db404e959d6c4fa42fc7c7ea48a28f6bd2d1e
+  branch: 3-1-stable
+  specs:
+    spree_editor (3.1.0)
+      ckeditor (~> 4.1.2)
+      spree_backend (~> 3.1.0.beta)
+      tinymce-rails (~> 4.2.5)
+
+GIT
   remote: git://github.com/spree-contrib/spree_mail_settings.git
   revision: e292a7e843e80ddf0337c68ed4093c702ee60f62
   branch: 3-1-stable
@@ -85,6 +95,9 @@ GEM
     carmen (1.0.2)
       activesupport (>= 3.0.0)
     chronic (0.10.2)
+    ckeditor (4.1.6)
+      cocaine
+      orm_adapter (~> 0.5.0)
     cldr-plurals-runtime-rb (1.0.1)
     climate_control (0.0.3)
       activesupport (>= 3.0)
@@ -313,6 +326,8 @@ GEM
     thor (0.19.3)
     thread_safe (0.3.5)
     tilt (2.0.5)
+    tinymce-rails (4.2.8)
+      railties (>= 3.1.1)
     truncate_html (0.9.3)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
@@ -357,6 +372,7 @@ DEPENDENCIES
   spree (~> 3.1.0)
   spree_auth_devise (~> 3.1.0)
   spree_braintree_vzero!
+  spree_editor!
   spree_gateway (~> 3.1.0)
   spree_mail_settings!
   spring

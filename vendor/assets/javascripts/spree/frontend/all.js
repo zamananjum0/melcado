@@ -9,3 +9,4 @@
 //= require spree/frontend
 //= require spree/frontend/spree_braintree_vzero
 //= require_tree .
+//= require spree/frontend/spree_auth
