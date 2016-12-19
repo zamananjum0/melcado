@@ -15,3 +15,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore newrelic config
+/config/newrelic.yml
+
+# Ignore application configuration
+/config/application.yml
