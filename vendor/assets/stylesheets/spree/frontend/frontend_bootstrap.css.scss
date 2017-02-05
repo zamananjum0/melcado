@@ -3,6 +3,7 @@
 @import "bootstrap-sprockets";
 @import "variables";
 @import "bootstrap";
+@import "fonts";
 
 // -- Spree Custom Header and Footer ---------------------
 #spree-header {
@@ -99,4 +100,10 @@ table {
 
 .existing-credit-card-list td {
   padding: 5px;
+}
+
+// -- Body Fonts Custom Rules -------------------------
+
+body {
+  font-family: 'heroregular';
 }
