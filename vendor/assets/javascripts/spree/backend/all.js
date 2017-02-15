@@ -9,3 +9,4 @@
 //= require spree/backend
 //= require spree/backend/spree_braintree_vzero
 //= require_tree .
+//= require spree/backend/spree_multi_currency

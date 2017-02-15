@@ -10,3 +10,4 @@
 //= require spree/frontend/spree_braintree_vzero
 //= require_tree .
 //= require spree/frontend/spree_auth
+//= require spree/frontend/spree_multi_currency
