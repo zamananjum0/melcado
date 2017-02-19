@@ -35,6 +35,15 @@ GIT
       spree_backend (~> 3.1.0.beta)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_slider.git
+  revision: ea8aff9c00c346e4075c55f588688263d9152e0d
+  branch: 3-1-stable
+  specs:
+    spree_slider (3.1.0)
+      spree_backend (>= 3.1.0.beta)
+      spree_core (>= 3.1.0.beta)
+
+GIT
   remote: git://github.com/spree-contrib/spree_static_content.git
   revision: 5e8d9ba3ee047da114c71f9ea6a05408ea75b494
   branch: 3-1-stable
@@ -392,6 +401,7 @@ DEPENDENCIES
   spree_gateway (~> 3.1.0)
   spree_mail_settings!
   spree_multi_currency!
+  spree_slider!
   spree_static_content!
   spring
   sqlite3
