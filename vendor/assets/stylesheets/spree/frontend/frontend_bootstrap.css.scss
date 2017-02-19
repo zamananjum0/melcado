@@ -102,8 +102,17 @@ table {
   padding: 5px;
 }
 
+
 // -- Body Fonts Custom Rules -------------------------
 
 body {
   font-family: 'heroregular';
+  font-size: 175%;
+}
+
+// -- Home link ---------------------------------------
+
+#home-link {
+  position: relative;
+  left: -30px;
 }
