@@ -36,12 +36,11 @@ GIT
 
 GIT
   remote: git://github.com/spree-contrib/spree_slider.git
-  revision: ea8aff9c00c346e4075c55f588688263d9152e0d
-  branch: 3-1-stable
+  revision: 014e6330dd288231a12e1b9d0da3ecf0f4c6c990
   specs:
-    spree_slider (3.1.0)
-      spree_backend (>= 3.1.0.beta)
-      spree_core (>= 3.1.0.beta)
+    spree_slider (3.2.0.alpha)
+      spree_backend (>= 3.1.0, < 4.0)
+      spree_core (>= 3.1.0, < 4.0)
 
 GIT
   remote: git://github.com/spree-contrib/spree_static_content.git
