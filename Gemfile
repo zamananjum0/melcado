@@ -23,6 +23,7 @@ gem 'spree_editor', github: 'spree-contrib/spree_editor', branch: '3-1-stable'
 gem 'spree_static_content', github: 'spree-contrib/spree_static_content', branch: '3-1-stable'
 gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch: '3-1-stable'
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
+gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
