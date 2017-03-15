@@ -10,8 +10,8 @@ attachment_config = {
   s3_headers:     { "Cache-Control" => "max-age=31557600" },
   s3_protocol:    '',
   bucket:         ENV['S3_BUCKET_NAME'],
-  url:            ":s3_domain_url",
-  s3_alias_url:   "cdn.melcado.com"
+  url:            ":s3_path_url",
+
 
   styles: {
       mini:     "48x48>",
