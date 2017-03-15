@@ -11,6 +11,7 @@ attachment_config = {
   s3_protocol:    '',
   bucket:         ENV['S3_BUCKET_NAME'],
   url:            ":s3_domain_url",
+  s3_alias_url:   "cdn.melcado.com"
 
   styles: {
       mini:     "48x48>",
