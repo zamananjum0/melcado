@@ -13,6 +13,7 @@
   #header {
     background: rgba($gray-darker, 0.4);
     padding: $line-height-computed 0;
+    background-image: url('asanoha.png');
   }
 
   #logo {
@@ -38,12 +39,6 @@
   }
 }
 
-#spree-footer {
-  background: $gray-dark;
-  padding-top: $padding-base-horizontal;
-  margin-top: $line-height-computed;
-  color: white;
-}
 
 // -- Spree Layout Custom Rules -------------------------
 
@@ -138,5 +133,25 @@ body {
 //--  Pagination links ---------------------------------
 .pagination {
   padding-left: 35%;
+
+}
+
+//--  Wrapper for page content to push down footer ------
+.wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+
+//--  Footer ------------------------------------------
+.footer
+{
+    background-color: rgba(92, 184, 92, 0.8);
+    width: 100%;
+    height: 65px;
 
 }
