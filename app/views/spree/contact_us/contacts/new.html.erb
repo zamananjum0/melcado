@@ -1,4 +1,4 @@
-
+<div class="jumbotron">
   <%= render :partial => 'spree/shared/error_messages', :locals => { :target => @contact } %>
 
   <h2><%= Spree.t(:contact_us_title) %></h2>
@@ -31,3 +31,4 @@
       <%= f.submit Spree.t(:submit), :alt => Spree.t(:submit), :id => 'contact_us_contact_submit', :title => Spree.t(:submit), class: 'btn btn-success' %>
     </p>
   <% end %>
+</div>
