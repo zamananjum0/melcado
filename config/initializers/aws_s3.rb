@@ -8,10 +8,10 @@ attachment_config = {
 
   storage:        :s3,
   s3_headers:     { "Cache-Control" => "max-age=31557600" },
+  s3_permissions: :private,
   s3_protocol:    "",
   bucket:         ENV['S3_BUCKET_NAME'],
-  s3_host_alias:  "cdn.melcado.com",
-  url:            ":s3_alias_url",
+  url:            ":s3_path_url",
 
   styles: {
       mini:     "48x48>",
