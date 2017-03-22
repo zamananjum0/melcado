@@ -14,10 +14,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 !/log/.keep
-/tmp
+/tmp/*
 
 # Ignore newrelic config
 /config/newrelic.yml
 
 # Ignore application configuration
 /config/application.yml
+
+# Ignore images added on development env
+/public/spree/products/*
+public/spree/slides/*
