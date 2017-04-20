@@ -12,3 +12,4 @@
 //= require spree/frontend/spree_auth
 //= require spree/frontend/spree_multi_currency
 //= require spree/frontend/spree_contact_us
+//= require spree/frontend/cookies_consent
