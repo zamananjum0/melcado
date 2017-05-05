@@ -16,6 +16,6 @@
 
 *multicurrency
 
+*S3 storage for static assets
 
---
-TODO => check 'Heroku installation' additional info on spree_braintree_vzero docs.
+*social login via twitter and facebook
