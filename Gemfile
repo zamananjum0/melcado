@@ -26,6 +26,8 @@ gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency', branch
 gem 'spree_slider', github: 'spree-contrib/spree_slider'
 gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us'
 gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-1-stable'
+gem 'datashift'
+gem 'datashift_spree'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
