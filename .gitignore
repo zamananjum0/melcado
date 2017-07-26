@@ -25,3 +25,6 @@
 # Ignore images added on development env
 /public/spree/products/*
 public/spree/slides/*
+
+# Ignore feed files and files related to datashift
+/vendor/datashift/*
